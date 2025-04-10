@@ -90,7 +90,7 @@ class MealDetailsScreen extends ConsumerWidget {
             const SizedBox(height: 14),
             for (final step in meal.steps)
               Padding(
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                   horizontal: 12,
                   vertical: 8,
                 ),
